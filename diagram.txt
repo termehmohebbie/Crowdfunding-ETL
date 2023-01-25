@@ -1,0 +1,30 @@
+Categories
+-------
+category_id pk FK >- Campaign.category_id
+category varchar
+Subcategories
+-------
+subcategory_id pk FK >- Campaign.subcategory_id
+subcategory varchar
+Contacts
+-------
+contact_id pk FK >- Campaign.contact_id
+first_name varchar
+last_name varchar
+email varchar
+Campaign
+-------
+cf_id pk
+contact_id
+company_name
+description
+goal
+pledged
+outcome
+backesr_count
+country
+currency
+launched_date
+end_date
+category_id
+subcategory_id
