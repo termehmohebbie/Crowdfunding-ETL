@@ -10,7 +10,7 @@ On this project, we practiced building an ETL pipeline using Python, Pandas, Pyt
 ## Subcategory DataFrame
 * The DataFrame contains a "subcategory_id" column that has entries going sequentially from "subcat1" to "subcatn", where n is the number of unique subcategories
 * The DataFrame contains a "subcategory" column that contains only the subcategory titles
-* The subcategory DataFrame is exported as **category.csv**
+* The subcategory DataFrame is exported as **subcategory.csv**
 
 ## Campaign DataFrame
 The DataFrame has the following columns:
