@@ -2,16 +2,25 @@ Categories
 -------
 category_id pk FK >- Campaign.category_id
 category varchar
+
+
+
 Subcategories
 -------
 subcategory_id pk FK >- Campaign.subcategory_id
 subcategory varchar
+
+
+
 Contacts
 -------
 contact_id pk FK >- Campaign.contact_id
 first_name varchar
 last_name varchar
 email varchar
+
+
+
 Campaign
 -------
 cf_id pk
